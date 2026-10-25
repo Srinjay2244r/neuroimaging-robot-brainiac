@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+
+# Large files hosted on Google Drive
+data/by_class.zip
+models/brainiac_multiclass.onnx
+models/jetson_package_4class.zip
